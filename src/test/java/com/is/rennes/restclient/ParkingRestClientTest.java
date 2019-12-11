@@ -11,7 +11,6 @@ import org.springframework.test.web.client.MockRestServiceServer;
 
 import java.util.List;
 
-import static java.util.stream.Collectors.toList;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.springframework.test.web.client.match.MockRestRequestMatchers.requestTo;
 import static org.springframework.test.web.client.response.MockRestResponseCreators.withSuccess;
@@ -50,8 +49,7 @@ class ParkingRestClientTest {
         assertEquals(
                 10,
                 pageRennesList.stream()
-                        .flatMap(pageRennes -> pageRennes.getRecords().stream())
-                        .collect(toList())
-                        .size());
+                        .mapToLong(pageRennes -> pageRennes.getRecords().size())
+                        .sum());
     }
 }

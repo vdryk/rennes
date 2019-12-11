@@ -1,5 +1,6 @@
 package com.is.rennes.restclient;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -13,6 +14,9 @@ public class ParkingRestClient {
 
     private static final int PAGE_SIZE = 5;
 
+    @Value("${rootUri}")
+    private String rootUri;
+
     private RestTemplate restTemplate;
 
     public ParkingRestClient(RestTemplateBuilder restTemplateBuilder) {
@@ -20,8 +24,6 @@ public class ParkingRestClient {
     }
 
     public List<PageRennes> fetchRennes() {
-
-        String rootUri = "https://data.rennesmetropole.fr";
 
         UriComponentsBuilder uriBuilder = UriComponentsBuilder
                 .fromUriString(rootUri + "/api/records/1.0/search/")
