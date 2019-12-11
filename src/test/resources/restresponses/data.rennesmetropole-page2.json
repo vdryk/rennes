@@ -1,0 +1,167 @@
+{
+  "nhits": 10,
+  "parameters": {
+    "dataset": "export-api-parking-citedia",
+    "timezone": "UTC",
+    "rows": 5,
+    "start": 5,
+    "format": "json"
+  },
+  "records": [
+    {
+      "datasetid": "export-api-parking-citedia",
+      "recordid": "f09c2abf6fd937a0ac3ed21425d05bb9f43dff63",
+      "fields": {
+        "status": "OUVERT",
+        "tarif_1h30": "1.00",
+        "tarif_30": "0.00",
+        "tarif_1h": "0.70",
+        "max": 193,
+        "orgahoraires": "Lundi au samedi, 5h45 \u00e0 20h30, sauf dimanche et jours f\u00e9ri\u00e9s.~~~Bureau du Parking Colombier ouvert de 7h30 \u00e0 20h30. Sauf dimanche et jours f\u00e9ri\u00e9s.~~~",
+        "tarif_3h": "3.20",
+        "tarif_2h": "1.60",
+        "free": 163,
+        "key": "Kennedy",
+        "tarif_4h": "3.80",
+        "geo": [
+          48.12071853,
+          -1.709662086
+        ],
+        "id": "1816",
+        "tarif_15": "0.00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.709662086,
+          48.12071853
+        ]
+      },
+      "record_timestamp": "2019-12-11T22:30:18.501000+00:00"
+    },
+    {
+      "datasetid": "export-api-parking-citedia",
+      "recordid": "a9c0d5929cfc5cf0836121bd770dd3c2a9a61d0e",
+      "fields": {
+        "status": "OUVERT",
+        "tarif_1h30": "2.20",
+        "tarif_30": "0.80",
+        "tarif_1h": "1.60",
+        "max": 424,
+        "orgahoraires": "7j/7. Lundi, 7h \u00e0 minuit. Mardi au vendredi, 7h \u00e0 3h. Samedi, 6h \u00e0 3h. Dimanche et jours f\u00e9ri\u00e9s, 9h \u00e0 21h.~~~Bureau : ouvert le lundi, 9h \u00e0 minuit et du mardi au samedi, 9h \u00e0 3h. Sauf dimanche et jours f\u00e9ri\u00e9s.~~~",
+        "tarif_3h": "4.00",
+        "tarif_2h": "2.80",
+        "free": 160,
+        "key": "Lices",
+        "tarif_4h": "5.20",
+        "geo": [
+          48.1131725287,
+          -1.68268042
+        ],
+        "id": "849",
+        "tarif_15": "0.40"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.68268042,
+          48.1131725287
+        ]
+      },
+      "record_timestamp": "2019-12-11T22:30:18.501000+00:00"
+    },
+    {
+      "datasetid": "export-api-parking-citedia",
+      "recordid": "da656d2431b71bb58dda27bb8801e9907cad19ca",
+      "fields": {
+        "status": "OUVERT",
+        "tarif_1h30": "2.20",
+        "tarif_30": "0.80",
+        "tarif_1h": "1.60",
+        "max": 756,
+        "orgahoraires": "7j/7. Lundi au dimanche, 5h \u00e0 2h.~~~Bureau ouvert : lundi, 8h \u00e0 1h, mardi au samedi, 9h \u00e0 1h, dimanche et les jours f\u00e9ri\u00e9s, 14h \u00e0 1h.",
+        "tarif_3h": "4.00",
+        "tarif_2h": "2.80",
+        "free": 507,
+        "key": "Charles-de-gaulle",
+        "tarif_4h": "5.20",
+        "geo": [
+          48.10623522,
+          -1.676050081
+        ],
+        "id": "1815",
+        "tarif_15": "0.40"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.676050081,
+          48.10623522
+        ]
+      },
+      "record_timestamp": "2019-12-11T22:30:18.501000+00:00"
+    },
+    {
+      "datasetid": "export-api-parking-citedia",
+      "recordid": "50d10290e74a5f0d634d0248f59770a4d485c523",
+      "fields": {
+        "status": "OUVERT",
+        "tarif_1h30": "1.20",
+        "tarif_30": "0.40",
+        "tarif_1h": "0.80",
+        "max": 383,
+        "orgahoraires": "Lundi au samedi, 7h \u00e0 20h30.~~~Bureau ouvert de 8h \u00e0 20h sauf dimanche et jours f\u00e9ri\u00e9s.",
+        "tarif_3h": "2.40",
+        "tarif_2h": "1.60",
+        "free": 140,
+        "key": "Kleber",
+        "tarif_4h": "3.20",
+        "geo": [
+          48.11091832,
+          -1.673373695
+        ],
+        "id": "770",
+        "tarif_15": "0.20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.673373695,
+          48.11091832
+        ]
+      },
+      "record_timestamp": "2019-12-11T22:30:18.501000+00:00"
+    },
+    {
+      "datasetid": "export-api-parking-citedia",
+      "recordid": "997c04f3559b50cf706de6fac1db563403a294b4",
+      "fields": {
+        "status": "OUVERT",
+        "tarif_1h30": "1.20",
+        "tarif_30": "0.40",
+        "tarif_1h": "0.80",
+        "max": 605,
+        "orgahoraires": "Parking ouvert 7j/7. Lundi au jeudi, 6h30 \u00e0 22h et du vendredi au dimanche, 6h30 \u00e0 6h.~~~Bureau du Colombier ouvert : 7h30 \u00e0 20h30 sauf dimanche et jours f\u00e9ri\u00e9s.~~~",
+        "tarif_3h": "2.40",
+        "tarif_2h": "1.60",
+        "free": 564,
+        "key": "Arsenal",
+        "tarif_4h": "3.20",
+        "geo": [
+          48.1043058108,
+          -1.6847819587
+        ],
+        "id": "1078",
+        "tarif_15": "0.20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6847819587,
+          48.1043058108
+        ]
+      },
+      "record_timestamp": "2019-12-11T22:30:18.501000+00:00"
+    }
+  ]
+}

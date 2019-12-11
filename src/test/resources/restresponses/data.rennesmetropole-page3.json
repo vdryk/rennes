@@ -1,0 +1,11 @@
+{
+  "nhits": 10,
+  "parameters": {
+    "dataset": "export-api-parking-citedia",
+    "timezone": "UTC",
+    "rows": 5,
+    "start": 10,
+    "format": "json"
+  },
+  "records": []
+}

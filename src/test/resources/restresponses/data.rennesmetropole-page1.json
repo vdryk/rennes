@@ -1,0 +1,167 @@
+{
+  "nhits": 10,
+  "parameters": {
+    "dataset": "export-api-parking-citedia",
+    "timezone": "UTC",
+    "rows": 5,
+    "start": 0,
+    "format": "json"
+  },
+  "records": [
+    {
+      "datasetid": "export-api-parking-citedia",
+      "recordid": "e48a6c1471924b57f41c3f26e6ddf4b27c7da737",
+      "fields": {
+        "status": "OUVERT",
+        "tarif_1h30": "2.20",
+        "tarif_30": "0.80",
+        "tarif_1h": "1.60",
+        "max": 1089,
+        "orgahoraires": "24h/24 et 7j/7. Bureau ouvert, 7h30 \u00e0 20h30 sauf dimanche et jours f\u00e9ri\u00e9s.",
+        "tarif_3h": "4.00",
+        "tarif_2h": "2.80",
+        "free": 854,
+        "key": "Colombier",
+        "tarif_4h": "5.20",
+        "geo": [
+          48.10476252,
+          -1.678624547
+        ],
+        "id": "310",
+        "tarif_15": "0.40"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.678624547,
+          48.10476252
+        ]
+      },
+      "record_timestamp": "2019-12-11T22:30:18.501000+00:00"
+    },
+    {
+      "datasetid": "export-api-parking-citedia",
+      "recordid": "331b8b0a24b82b3dddf435b8eb979f7577bdb683",
+      "fields": {
+        "status": "OUVERT",
+        "tarif_1h30": "3.00",
+        "tarif_30": "1.00",
+        "tarif_1h": "2.00",
+        "max": 964,
+        "orgahoraires": "24h/24 et 7j/7 Bureau ouvert : lundi et mardi, 5h30 \u00e0 22h. Mercredi, 5h30 \u00e0 23h. Jeudi et vendredi, 5h30 \u00e0 minuit. Samedi, 7h \u00e0 22h. Dimanche et jours f\u00e9ri\u00e9s, 8h \u00e0 1h.",
+        "tarif_3h": "5.60",
+        "tarif_2h": "4.00",
+        "free": 718,
+        "key": "Gare-Sud",
+        "tarif_4h": "7.20",
+        "geo": [
+          48.1025360816,
+          -1.672518275
+        ],
+        "id": "477",
+        "tarif_15": "0.50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.672518275,
+          48.1025360816
+        ]
+      },
+      "record_timestamp": "2019-12-11T22:30:18.501000+00:00"
+    },
+    {
+      "datasetid": "export-api-parking-citedia",
+      "recordid": "961d4878397736d816e8c6e9ba599d7b77d251ba",
+      "fields": {
+        "status": "OUVERT",
+        "tarif_1h30": "1.80",
+        "tarif_30": "0.60",
+        "tarif_1h": "1.20",
+        "max": 403,
+        "orgahoraires": "Lundi au mercredi, 7h \u00e0 21h et jeudi au samedi, 7h \u00e0 minuit. Ferm\u00e9 dimanche et jours f\u00e9ri\u00e9s.~~~Bureau Parking des Lices ouvert : lundi, 9h \u00e0 minuit et mardi au samedi, 9h \u00e0 3h.Ferm\u00e9 dimanche et jours f\u00e9ri\u00e9s.",
+        "tarif_3h": "3.60",
+        "tarif_2h": "2.40",
+        "free": 91,
+        "key": "Dinan-Chezy",
+        "tarif_4h": "4.80",
+        "geo": [
+          48.1136616162,
+          -1.6861056129
+        ],
+        "id": "10",
+        "tarif_15": "0.30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6861056129,
+          48.1136616162
+        ]
+      },
+      "record_timestamp": "2019-12-11T22:30:18.501000+00:00"
+    },
+    {
+      "datasetid": "export-api-parking-citedia",
+      "recordid": "68b40a5f4a9057a0a16f948040e683c3450498b1",
+      "fields": {
+        "status": "OUVERT",
+        "tarif_1h30": "3.00",
+        "tarif_30": "1.00",
+        "tarif_1h": "2.00",
+        "max": 250,
+        "orgahoraires": "24h/24 et 7j/7. Bureau ouvert lundi, 9h30 \u00e0 19h30. Mardi, 9h \u00e0 22h30. Mercredi, 9h \u00e0 23h. Jeudi au samedi,9h \u00e0 00h. Ferm\u00e9 les dimanches et les jours f\u00e9ri\u00e9s.",
+        "tarif_3h": "6.00",
+        "tarif_2h": "4.00",
+        "free": 142,
+        "key": "Vilaine",
+        "tarif_4h": "8.00",
+        "geo": [
+          48.11005808,
+          -1.681636388
+        ],
+        "id": "389",
+        "tarif_15": "0.50"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.681636388,
+          48.11005808
+        ]
+      },
+      "record_timestamp": "2019-12-11T22:30:18.501000+00:00"
+    },
+    {
+      "datasetid": "export-api-parking-citedia",
+      "recordid": "9b7154a808a248721805558152c759cf4caaca87",
+      "fields": {
+        "status": "OUVERT",
+        "tarif_1h30": "2.20",
+        "tarif_30": "0.80",
+        "tarif_1h": "1.60",
+        "max": 776,
+        "orgahoraires": "Lundi, 7h30 \u00e0 minuit. Mardi au samedi, 7h30 \u00e0 2h, sauf dimanche et jours f\u00e9ri\u00e9s.~~~Bureau ouvert : lundi, 8h \u00e0 22h, du mardi au vendredi, 8h \u00e0 00h et samedi, 8h \u00e0 1h. Sauf dimanche et jours f\u00e9ri\u00e9s.",
+        "tarif_3h": "4.00",
+        "tarif_2h": "2.80",
+        "free": 453,
+        "key": "Hoche",
+        "tarif_4h": "5.20",
+        "geo": [
+          48.1152367,
+          -1.677049014
+        ],
+        "id": "648",
+        "tarif_15": "0.40"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.677049014,
+          48.1152367
+        ]
+      },
+      "record_timestamp": "2019-12-11T22:30:18.501000+00:00"
+    }
+  ]
+}

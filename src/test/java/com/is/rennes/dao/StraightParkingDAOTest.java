@@ -2,7 +2,7 @@ package com.is.rennes.dao;
 
 import com.is.rennes.controller.rest.Parking;
 import com.is.rennes.mapper.ParkingMapper;
-import com.is.rennes.restclient.ParkingRennes;
+import com.is.rennes.restclient.PageRennes;
 import com.is.rennes.restclient.ParkingRestClient;
 import org.junit.Before;
 import org.junit.Test;
@@ -35,10 +35,10 @@ public class StraightParkingDAOTest {
     @Test
     public void shouldGetParkings() {
         // given
-        ParkingRennes parkingRennes = new ParkingRennes();
-        when(parkingRestClient.fetchRennes()).thenReturn(parkingRennes);
+        List<PageRennes> pageRennes = Collections.singletonList(new PageRennes());
+        when(parkingRestClient.fetchRennes()).thenReturn(pageRennes);
         List<Parking> expectedParkings = Collections.singletonList(Parking.builder().build());
-        when(parkingMapper.toParking(parkingRennes)).thenReturn(expectedParkings);
+        when(parkingMapper.toParking(pageRennes)).thenReturn(expectedParkings);
 
         // when
         List<Parking> actualParkings = straightParkingDAO.getParking("Rennes");

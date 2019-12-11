@@ -10,7 +10,7 @@ import java.util.List;
 @JsonIgnoreProperties(ignoreUnknown = true)
 @Getter
 @Setter
-public class ParkingRennes {
+public class PageRennes {
 
     private List<Record> records = new ArrayList<>();
 }
